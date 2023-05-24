@@ -1,7 +1,7 @@
 <template>
   <a-row>
       <br>
-      <a-col :span="2"></a-col>
+      
       <a-col :span="12">
           <div class="search-wrapper">
               <input type="text" v-model="nombrePais" placeholder="Escriba el nombre de un país" />
@@ -31,7 +31,7 @@
               </template>
           </a-table>
       </a-col>
-      <a-col :span="6">
+      <a-col :span="12">
           <div id="result" v-html="detallesPais"></div>
       </a-col>
   </a-row>
