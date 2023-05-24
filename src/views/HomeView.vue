@@ -51,7 +51,7 @@ export default {
     const mostrarModal = (pais) => {
       paisSeleccionado.value = pais;
       console.log(paisSeleccionado);
-      visible.value = true; // Agregar esta línea para mostrar el modal
+      visible.value = true; 
     };
 
     const aceptarModal = (e) => {
