@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/">PAISES</router-link> |
-    <router-link to="/about">INFORMACION</router-link>
+    <router-link to="/info">INFORMACION</router-link>
   </nav>
   <router-view/>
 </template>
