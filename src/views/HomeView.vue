@@ -1,8 +1,8 @@
 <template>
   <a-row type="flex">
       <br>
-      <a-col :span="3"></a-col>
-      <a-col :span="12">
+      
+      <a-col flex="auto" >
           <div class="search-wrapper">
               <input type="text" v-model="nombrePais" placeholder="Escriba el nombre de un país" />
               <button @click="buscar">Buscar</button>
@@ -31,7 +31,8 @@
               </template>
           </a-table>
       </a-col>
-      <a-col :span="9">
+      <a-col flex="100px" >
+      
           <div id="result" v-html="detallesPais"></div>
       </a-col>
   </a-row>
