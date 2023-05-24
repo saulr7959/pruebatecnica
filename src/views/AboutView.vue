@@ -3,7 +3,7 @@
     <a-card title="CREADOR" :bordered="false" style="width: 300px">
       <p>SAUL ERNESTO OSORIO RODRIGUEZ</p>
       <p>INGENIERO EN CIENCIAS DE LA COMPUTACION</p>
-      <p>linkedin.com/in/saulosorio</p>
+      <a href="linkedin.com/in/saulosorio">linkedin.com/in/saulosorio</a>
     </a-card>
   </div>
 </template>
