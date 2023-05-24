@@ -1,5 +1,5 @@
 <template>
-  <a-row>
+  <a-row type="flex">
       <br>
       <a-col :span="3"></a-col>
       <a-col :span="12">
